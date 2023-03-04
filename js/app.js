@@ -25,10 +25,6 @@ let strawberryCount = 0;
 
 let itemsBlockOpen = false;
 
-// text = `Здравствуйте. Я хочу заказать у вас бокс. Сладости - (Чупа чупс - ${candy[0]}. Альпенголд - ${candy[1]}. Милка - ${candy[2]}. Рафаэло - ${candy[3]}. Мармеладки - ${candy[4]}. Киндер - ${candy[5]}. Клубники в шоколаде - ${strawberryCount}). Духи - (Miss Dior - ${perfume[0]}. Chanel N5 - ${perfume[1]}. Amor Amor - ${perfume[2]}. Lacoste pink - ${perfume[3]}. Tom Ford Bitter Peach - ${perfume[4]}. Baccarat - ${perfume[5]}). Аксессуары Lacoste - (Сумки - ${lacoste[0]}. Кошелёк - ${lacoste[1]}. Шарф - ${lacoste[2]}). Цветы - (Тюльпаны - ${flowers[0]}. Розы - ${flowers[1]}).`;
-// text = text.replace(/ /g, "%20");
-// url = `https://wa.me/77056799066?text=`;
-
 let tempText = "";
 let candyText = "";
 let perfumeText = "";
@@ -224,14 +220,6 @@ function sendBtnSettings() {
         alert("Вы ничего не выбрали!");
     }
 }
-
-// sendBtn.addEventListener("click", () => {
-//     text = `Сладости - (Чупа чупс - ${candy[0]}. Альпенголд - ${candy[1]}. Милка - ${candy[2]}. Рафаэло - ${candy[3]}. Мармеладки - ${candy[4]}. Киндер - ${candy[5]}. Клубники в шоколаде - ${strawberryCount}). Духи - (Miss Dior - ${perfume[0]}. Chanel N5 - ${perfume[1]}. Amor Amor - ${perfume[2]}. Lacoste pink - ${perfume[3]}. Tom Ford Bitter Peach - ${perfume[4]}. Baccarat - ${perfume[5]}). Аксессуары Lacoste - (Сумки - ${lacoste[0]}. Кошелёк - ${lacoste[1]}. Шарф - ${lacoste[2]}). Цветы - (Тюльпаны - ${flowers[0]}. Розы - ${flowers[1]}).`;
-
-//     text = text.replace(/ /g, "%20");
-//     url += text;
-//     open(url);
-// })
 
 function candyCheck(index, name) {
     if (candy[index] > 0 && candy[index] < 11) {
