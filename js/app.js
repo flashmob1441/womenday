@@ -14,7 +14,7 @@ const counts = document.querySelectorAll(".count");
 const strawberry = document.querySelector(".strawberry");
 
 let text;
-let url = "https://wa.me/77056799066?text=Здравствуйте.%20Я%20хочу%20заказать%20у%20вас%20бокс.%20";
+let url = "https://wa.me/77710880056?text=Здравствуйте.%20Я%20хочу%20заказать%20у%20вас%20бокс.%20";
 
 let candy = [0, 0, 0, 0, 0, 0];
 let perfume = [0, 0, 0, 0, 0, 0];
